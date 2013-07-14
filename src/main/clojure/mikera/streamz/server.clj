@@ -3,7 +3,9 @@
 
 (defn fresh-handler []
   (fn [request]
-    "OK"))
+    {:status  200
+     :headers {"Content-Type" "text/html"}
+     :body    "Hello World!"}))
 
 (defn launch []
   (let [close-fn (hts/run-server (fresh-handler) {:port 8080})]
