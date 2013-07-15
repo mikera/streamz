@@ -26,6 +26,11 @@
   		<artifactId>clojure-utils</artifactId>
   		<version>0.2.3</version>
   	</dependency>
+  	<dependency>
+  		<groupId>com.cemerick</groupId>
+  		<artifactId>friend</artifactId>
+  		<version>0.1.5</version>
+  	</dependency>
   </dependencies>
   <parent>
   	<groupId>net.mikera</groupId>
