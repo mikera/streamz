@@ -3,6 +3,11 @@ streamz
 
 RESTful server for realtime data streams
 
+Experimental / under development
+
+See design notes:
+
+https://github.com/mikera/streamz/wiki/Design
 
 ### LICENSE
 
