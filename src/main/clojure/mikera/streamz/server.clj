@@ -11,6 +11,7 @@
 (def SERVER_MAP (agent {}))
 
 (defn launch 
+  "Launches a streamz server on the given port with default configuration"
   ([] (launch 8080))
   ([port]
     (send-off SERVER_MAP 
