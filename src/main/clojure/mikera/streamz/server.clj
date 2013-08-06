@@ -10,10 +10,12 @@
 ;; store the current server in a map of port -> close function
 (def SERVER_MAP (agent {}))
 
-(defn launch []
-  (send-off SERVER_MAP 
-    (fn [m]
-      (let [port 8080
+(defn launch 
+  ([] (launch 8080))
+  ([port]
+    (send-off SERVER_MAP 
+              (fn [m]
+      (let [port (int port)
             _ (when (m port) ((m port))) ;; close the existing server, if any
             close-fn (hts/run-server (fresh-handler) {:port port})]
-        (assoc m port close-fn)))))
+        (assoc m port close-fn))))))
