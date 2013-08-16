@@ -38,6 +38,16 @@
 			<artifactId>core.async</artifactId>
 			<version>0.1.0-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>compojure</groupId>
+			<artifactId>compojure</artifactId>
+			<version>1.1.5</version>
+		</dependency>
+		<dependency>
+			<groupId>liberator</groupId>
+			<artifactId>liberator</artifactId>
+			<version>0.9.0</version>
+		</dependency>
 	</dependencies>
 	
 	<repositories>
