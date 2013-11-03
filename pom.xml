@@ -10,7 +10,7 @@
 		<dependency>
 			<groupId>org.clojure</groupId>
 			<artifactId>clojure</artifactId>
-			<version>1.5.1</version>
+			<version>1.6.0-alpha1</version>
 		</dependency>
 		<dependency>
 			<groupId>net.mikera</groupId>
@@ -21,12 +21,12 @@
 		<dependency>
 			<groupId>http-kit</groupId>
 			<artifactId>http-kit</artifactId>
-			<version>2.1.11</version>
+			<version>2.1.13</version>
 		</dependency>
 		<dependency>
 			<groupId>net.mikera</groupId>
 			<artifactId>clojure-utils</artifactId>
-			<version>0.4.0</version>
+			<version>0.5.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.cemerick</groupId>
@@ -41,7 +41,7 @@
 		<dependency>
 			<groupId>compojure</groupId>
 			<artifactId>compojure</artifactId>
-			<version>1.1.5</version>
+			<version>1.1.6</version>
 		</dependency>
 		<dependency>
 			<groupId>liberator</groupId>
